@@ -1,6 +1,6 @@
 from stack import*
 
-def calc(polsky):
+def calc(polsky):                                 #на вход подается обратная польская нотация; числа разделены между собой символом "_"
     tokens = ['+', '-', '/', '*', '^']
     i = 0
     while i < len(polsky):
